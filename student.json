@@ -31,13 +31,5 @@
             "photo":null,
             "payment_status":"Paid"
         }
-    ],
-    "institutions":[
-        {
-            "institution_name":"Technological Institute of the Philippines"
-        },
-        {
-            "institution_name":"Chonke Discounted PH"
-        }
     ]
 }
