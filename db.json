@@ -1,14 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "profile":{
+        "name":"testchonke"
+    },
+    "student":[
+        {
+            "id_students":1,
+            "given_name":"JA",
+            "middle_name":"T",
+            "last_name":"L",
+            "membership_status":"New",
+            "email":"JATL@tip.edu.ph",
+            "id_institution":1,
+            "membership_date":null,
+            "membership_expiration":null,
+            "icpep_id_number":null,
+            "photo":null,
+            "payment_status":"Paid"
+        },
+        {
+            "id_students":2,
+            "given_name":"Chonke",
+            "middle_name":"Buy",
+            "last_name":"Boi",
+            "membership_status":"Old",
+            "email":"CBB@tip.edu.ph",
+            "id_institution":1,
+            "membership_date":null,
+            "membership_expiration":null,
+            "icpep_id_number":null,
+            "photo":null,
+            "payment_status":"Paid"
+        }
+    ],
+    "institutions":[
+        {
+            "institution_name":"Technological Institute of the Philippines"
+        },
+        {
+            "institution_name":"Chonke Discounted PH"
+        }
+    ]
 }
